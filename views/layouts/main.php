@@ -43,7 +43,7 @@ AppAsset::register($this);
             ['label' => 'Books', 'url' => ['/books']],
             ['label' => 'Authors', 'url' => ['/authors']],
             ['label' => 'Api', 'url' => ['/api/v1'], 'items' => [
-                ['label' => 'Books', 'url' => ['/api/v1/books/list']],
+                ['label' => 'Books', 'url' => ['/api/v1/books/list?expand=authors']],
                 ['label' => 'Authors', 'url' => ['/api/v1/authors']],
             ]
             ],

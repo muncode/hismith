@@ -4,7 +4,6 @@ namespace app\commands;
 
 use yii\console\Controller;
 use app\models\Books;
-use yii\console\ExitCode;
 
 class DeleteBooksController extends Controller
 {
