@@ -44,7 +44,7 @@ AppAsset::register($this);
             ['label' => 'Authors', 'url' => ['/authors']],
             ['label' => 'Api', 'url' => ['/api/v1'], 'items' => [
                 ['label' => 'Books list', 'url' => ['/api/v1/books/list?expand=authors']],
-                ['label' => 'Books find', 'url' => ['http://beee.zzz.com.ua/hismith/web/api/v1/books/find?id=1']],
+                ['label' => 'Books find', 'url' => ['api/v1/books/find?id=1']],
                 ['label' => 'Authors', 'url' => ['/api/v1/authors']],
             ]
             ],
